@@ -18,5 +18,5 @@ void draw(){
   fill(co, 50, bri);
   ellipse(x, y, sz, sz);
   
-  a += 0.1;
+  a += 0.009;
 }
