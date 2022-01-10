@@ -11,13 +11,13 @@ void setup(){
   c1 = color(random(100), 100, 100);
   c2 = color(random(100), 100, 30);
   
-  float maxr = 600;
+  float maxr = 500;
   for(int r = 0; r < maxr; r++)
   {
     float n = map(r, 0, maxr, 0, 1);
     color newc = lerpColor(c1, c2, n);
     stroke(newc);
-    ellipse(100, 100, r, r);
+    ellipse(250, 200, r, r);
   }
 }
 
