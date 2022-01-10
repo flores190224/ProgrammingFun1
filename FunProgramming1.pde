@@ -15,5 +15,5 @@ while(x < width) {
   stroke(co, 100, 100);
   point(x, y);
   x++;
-  a += 0.03;
+  a += 0.006;
 }
